@@ -23,6 +23,7 @@ function App() {
   }
 
   const showRestaurants = restaurants.slice(0, listEnd)
+  console.log(listEnd)
   console.log(showRestaurants)
 
   const renderRestaurants = () => {

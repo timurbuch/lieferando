@@ -5,7 +5,7 @@ export const initialState = {
     hasErrors: false,
     restaurants: [],
 }
-// SLice for restaurant with 3 reducers
+// Slice for restaurants with 3 reducers
 const restaurantsSlice = createSlice({
     name: 'restaurants',
     initialState,

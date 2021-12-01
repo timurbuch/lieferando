@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {value: 4}
+const initialState = {listEnd: 4}
 
 const listEndSlice = createSlice({
     name: 'listEnd',
     initialState,
     reducers: {
-        showMore(state) {
-            state.value += 4
+        showMore: state => {
+            state.listEnd += 4
         },
     }, 
 })
